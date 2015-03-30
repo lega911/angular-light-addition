@@ -5,7 +5,7 @@
  */
 
 (function() {
-  dirs["with"] = {
+  alight.directives.al["with"] = {
     priority: 500,
     init: function(element, name, scope, env) {
       var self;

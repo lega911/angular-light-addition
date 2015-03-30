@@ -2,7 +2,7 @@
 ###
     al-with="some.long.path"
 ###
-dirs.with =
+alight.directives.al.with =
     priority: 500
     init: (element, name, scope, env) ->
         self = dirs.if.init element, name, scope, env
