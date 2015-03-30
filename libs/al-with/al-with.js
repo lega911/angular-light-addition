@@ -9,7 +9,7 @@
     priority: 500,
     init: function(element, name, scope, env) {
       var self;
-      self = dirs["if"].init(element, name, scope, env);
+      self = alight.directives.al["if"].init(element, name, scope, env);
       self.insertBlock = function(value) {
         if (self.child) {
           self.removeBlock();

@@ -5,7 +5,7 @@
 alight.directives.al.with =
     priority: 500
     init: (element, name, scope, env) ->
-        self = dirs.if.init element, name, scope, env
+        self = alight.directives.al.if.init element, name, scope, env
         self.insertBlock = (value) ->
             if self.child
                 self.removeBlock()
